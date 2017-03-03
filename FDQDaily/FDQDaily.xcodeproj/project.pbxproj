@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B08247531E692A54000BC96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247521E692A54000BC96F /* AppDelegate.swift */; };
+		B08247551E692A54000BC96F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247541E692A54000BC96F /* ViewController.swift */; };
+		B08247581E692A54000BC96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08247561E692A54000BC96F /* Main.storyboard */; };
+		B082475A1E692A54000BC96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08247591E692A54000BC96F /* Assets.xcassets */; };
+		B082475D1E692A54000BC96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B082475B1E692A54000BC96F /* LaunchScreen.storyboard */; };
+		B08247681E692A54000BC96F /* FDQDailyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247671E692A54000BC96F /* FDQDailyTests.swift */; };
+		B08247731E692A54000BC96F /* FDQDailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247721E692A54000BC96F /* FDQDailyUITests.swift */; };
+		B08247891E6938A7000BC96F /* FDPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247881E6938A7000BC96F /* FDPageViewController.swift */; };
+		B082478B1E693C3B000BC96F /* FDHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B082478A1E693C3B000BC96F /* FDHomeViewController.swift */; };
+		B082478D1E693C62000BC96F /* FDHomeLABSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B082478C1E693C62000BC96F /* FDHomeLABSViewController.swift */; };
+		B082478F1E693FEC000BC96F /* FDTopCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B082478E1E693FEC000BC96F /* FDTopCustomView.swift */; };
+		B08247911E695AFD000BC96F /* FDSuspensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247901E695AFD000BC96F /* FDSuspensionView.swift */; };
+		B08247931E696412000BC96F /* FDMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247921E696412000BC96F /* FDMenuView.swift */; };
+		B08247951E6967DF000BC96F /* FDNewClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247941E6967DF000BC96F /* FDNewClassificationView.swift */; };
+		B08247971E696FCD000BC96F /* FDHomeNewsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247961E696FCD000BC96F /* FDHomeNewsDataManager.swift */; };
+		B25E77AA06AAEE6E88FF14C4 /* Pods_FDQDaily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747F1E712C49E2E4A9852F63 /* Pods_FDQDaily.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B08247641E692A54000BC96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B08247471E692A54000BC96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B082474E1E692A54000BC96F;
+			remoteInfo = FDQDaily;
+		};
+		B082476F1E692A54000BC96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B08247471E692A54000BC96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B082474E1E692A54000BC96F;
+			remoteInfo = FDQDaily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BB1627B9F165C46F111A163 /* Pods-FDQDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDQDaily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDQDaily/Pods-FDQDaily.debug.xcconfig"; sourceTree = "<group>"; };
+		747F1E712C49E2E4A9852F63 /* Pods_FDQDaily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDQDaily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B082474F1E692A54000BC96F /* FDQDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDQDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08247521E692A54000BC96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B08247541E692A54000BC96F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B08247571E692A54000BC96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B08247591E692A54000BC96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B082475C1E692A54000BC96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B082475E1E692A54000BC96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B08247631E692A54000BC96F /* FDQDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDQDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08247671E692A54000BC96F /* FDQDailyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDQDailyTests.swift; sourceTree = "<group>"; };
+		B08247691E692A54000BC96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B082476E1E692A54000BC96F /* FDQDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDQDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08247721E692A54000BC96F /* FDQDailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDQDailyUITests.swift; sourceTree = "<group>"; };
+		B08247741E692A54000BC96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B08247881E6938A7000BC96F /* FDPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDPageViewController.swift; sourceTree = "<group>"; };
+		B082478A1E693C3B000BC96F /* FDHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDHomeViewController.swift; sourceTree = "<group>"; };
+		B082478C1E693C62000BC96F /* FDHomeLABSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDHomeLABSViewController.swift; sourceTree = "<group>"; };
+		B082478E1E693FEC000BC96F /* FDTopCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDTopCustomView.swift; sourceTree = "<group>"; };
+		B08247901E695AFD000BC96F /* FDSuspensionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDSuspensionView.swift; sourceTree = "<group>"; };
+		B08247921E696412000BC96F /* FDMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDMenuView.swift; sourceTree = "<group>"; };
+		B08247941E6967DF000BC96F /* FDNewClassificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDNewClassificationView.swift; sourceTree = "<group>"; };
+		B08247961E696FCD000BC96F /* FDHomeNewsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDHomeNewsDataManager.swift; sourceTree = "<group>"; };
+		FC557DB01AF422874B3867F2 /* Pods-FDQDaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDQDaily.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDQDaily/Pods-FDQDaily.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B082474C1E692A54000BC96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25E77AA06AAEE6E88FF14C4 /* Pods_FDQDaily.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08247601E692A54000BC96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B082476B1E692A54000BC96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		754E586518E7041FADCD15EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				747F1E712C49E2E4A9852F63 /* Pods_FDQDaily.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B08247461E692A54000BC96F = {
+			isa = PBXGroup;
+			children = (
+				B08247511E692A54000BC96F /* FDQDaily */,
+				B08247661E692A54000BC96F /* FDQDailyTests */,
+				B08247711E692A54000BC96F /* FDQDailyUITests */,
+				B08247501E692A54000BC96F /* Products */,
+				C1E89D7BFF3EF777BD17D300 /* Pods */,
+				754E586518E7041FADCD15EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B08247501E692A54000BC96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B082474F1E692A54000BC96F /* FDQDaily.app */,
+				B08247631E692A54000BC96F /* FDQDailyTests.xctest */,
+				B082476E1E692A54000BC96F /* FDQDailyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B08247511E692A54000BC96F /* FDQDaily */ = {
+			isa = PBXGroup;
+			children = (
+				B08247831E6937B7000BC96F /* Views */,
+				B08247851E6937B7000BC96F /* Models */,
+				B08247801E6937B7000BC96F /* ViewControllers */,
+				B08247811E6937B7000BC96F /* Depends */,
+				B08247821E6937B7000BC96F /* Tools */,
+				B08247841E6937B7000BC96F /* DataManager */,
+				B08247861E6937B7000BC96F /* LoopView */,
+				B08247871E6937B7000BC96F /* Refresh */,
+				B08247521E692A54000BC96F /* AppDelegate.swift */,
+				B08247541E692A54000BC96F /* ViewController.swift */,
+				B08247561E692A54000BC96F /* Main.storyboard */,
+				B08247591E692A54000BC96F /* Assets.xcassets */,
+				B082475B1E692A54000BC96F /* LaunchScreen.storyboard */,
+				B082475E1E692A54000BC96F /* Info.plist */,
+			);
+			path = FDQDaily;
+			sourceTree = "<group>";
+		};
+		B08247661E692A54000BC96F /* FDQDailyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B08247671E692A54000BC96F /* FDQDailyTests.swift */,
+				B08247691E692A54000BC96F /* Info.plist */,
+			);
+			path = FDQDailyTests;
+			sourceTree = "<group>";
+		};
+		B08247711E692A54000BC96F /* FDQDailyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B08247721E692A54000BC96F /* FDQDailyUITests.swift */,
+				B08247741E692A54000BC96F /* Info.plist */,
+			);
+			path = FDQDailyUITests;
+			sourceTree = "<group>";
+		};
+		B08247801E6937B7000BC96F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B08247881E6938A7000BC96F /* FDPageViewController.swift */,
+				B082478A1E693C3B000BC96F /* FDHomeViewController.swift */,
+				B082478C1E693C62000BC96F /* FDHomeLABSViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B08247811E6937B7000BC96F /* Depends */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Depends;
+			sourceTree = "<group>";
+		};
+		B08247821E6937B7000BC96F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B08247831E6937B7000BC96F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B082478E1E693FEC000BC96F /* FDTopCustomView.swift */,
+				B08247901E695AFD000BC96F /* FDSuspensionView.swift */,
+				B08247921E696412000BC96F /* FDMenuView.swift */,
+				B08247941E6967DF000BC96F /* FDNewClassificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B08247841E6937B7000BC96F /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				B08247961E696FCD000BC96F /* FDHomeNewsDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		B08247851E6937B7000BC96F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B08247861E6937B7000BC96F /* LoopView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoopView;
+			sourceTree = "<group>";
+		};
+		B08247871E6937B7000BC96F /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		C1E89D7BFF3EF777BD17D300 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BB1627B9F165C46F111A163 /* Pods-FDQDaily.debug.xcconfig */,
+				FC557DB01AF422874B3867F2 /* Pods-FDQDaily.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B082474E1E692A54000BC96F /* FDQDaily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08247771E692A54000BC96F /* Build configuration list for PBXNativeTarget "FDQDaily" */;
+			buildPhases = (
+				B6C240A1729EB0A76E5268A0 /* [CP] Check Pods Manifest.lock */,
+				B082474B1E692A54000BC96F /* Sources */,
+				B082474C1E692A54000BC96F /* Frameworks */,
+				B082474D1E692A54000BC96F /* Resources */,
+				C84FB3182AB95FF3F9978262 /* [CP] Embed Pods Frameworks */,
+				2E3DF042D0E82B31DD69FED5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDQDaily;
+			productName = FDQDaily;
+			productReference = B082474F1E692A54000BC96F /* FDQDaily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B08247621E692A54000BC96F /* FDQDailyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B082477A1E692A54000BC96F /* Build configuration list for PBXNativeTarget "FDQDailyTests" */;
+			buildPhases = (
+				B082475F1E692A54000BC96F /* Sources */,
+				B08247601E692A54000BC96F /* Frameworks */,
+				B08247611E692A54000BC96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08247651E692A54000BC96F /* PBXTargetDependency */,
+			);
+			name = FDQDailyTests;
+			productName = FDQDailyTests;
+			productReference = B08247631E692A54000BC96F /* FDQDailyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B082476D1E692A54000BC96F /* FDQDailyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B082477D1E692A54000BC96F /* Build configuration list for PBXNativeTarget "FDQDailyUITests" */;
+			buildPhases = (
+				B082476A1E692A54000BC96F /* Sources */,
+				B082476B1E692A54000BC96F /* Frameworks */,
+				B082476C1E692A54000BC96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08247701E692A54000BC96F /* PBXTargetDependency */,
+			);
+			name = FDQDailyUITests;
+			productName = FDQDailyUITests;
+			productReference = B082476E1E692A54000BC96F /* FDQDailyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B08247471E692A54000BC96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FD;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = feyddy;
+				TargetAttributes = {
+					B082474E1E692A54000BC96F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B08247621E692A54000BC96F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B082474E1E692A54000BC96F;
+					};
+					B082476D1E692A54000BC96F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B082474E1E692A54000BC96F;
+					};
+				};
+			};
+			buildConfigurationList = B082474A1E692A54000BC96F /* Build configuration list for PBXProject "FDQDaily" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B08247461E692A54000BC96F;
+			productRefGroup = B08247501E692A54000BC96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B082474E1E692A54000BC96F /* FDQDaily */,
+				B08247621E692A54000BC96F /* FDQDailyTests */,
+				B082476D1E692A54000BC96F /* FDQDailyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B082474D1E692A54000BC96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B082475D1E692A54000BC96F /* LaunchScreen.storyboard in Resources */,
+				B082475A1E692A54000BC96F /* Assets.xcassets in Resources */,
+				B08247581E692A54000BC96F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08247611E692A54000BC96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B082476C1E692A54000BC96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E3DF042D0E82B31DD69FED5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FDQDaily/Pods-FDQDaily-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C240A1729EB0A76E5268A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C84FB3182AB95FF3F9978262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FDQDaily/Pods-FDQDaily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B082474B1E692A54000BC96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08247551E692A54000BC96F /* ViewController.swift in Sources */,
+				B08247531E692A54000BC96F /* AppDelegate.swift in Sources */,
+				B08247911E695AFD000BC96F /* FDSuspensionView.swift in Sources */,
+				B08247951E6967DF000BC96F /* FDNewClassificationView.swift in Sources */,
+				B08247891E6938A7000BC96F /* FDPageViewController.swift in Sources */,
+				B082478D1E693C62000BC96F /* FDHomeLABSViewController.swift in Sources */,
+				B08247931E696412000BC96F /* FDMenuView.swift in Sources */,
+				B08247971E696FCD000BC96F /* FDHomeNewsDataManager.swift in Sources */,
+				B082478B1E693C3B000BC96F /* FDHomeViewController.swift in Sources */,
+				B082478F1E693FEC000BC96F /* FDTopCustomView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B082475F1E692A54000BC96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08247681E692A54000BC96F /* FDQDailyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B082476A1E692A54000BC96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08247731E692A54000BC96F /* FDQDailyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B08247651E692A54000BC96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B082474E1E692A54000BC96F /* FDQDaily */;
+			targetProxy = B08247641E692A54000BC96F /* PBXContainerItemProxy */;
+		};
+		B08247701E692A54000BC96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B082474E1E692A54000BC96F /* FDQDaily */;
+			targetProxy = B082476F1E692A54000BC96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B08247561E692A54000BC96F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08247571E692A54000BC96F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B082475B1E692A54000BC96F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B082475C1E692A54000BC96F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B08247751E692A54000BC96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B08247761E692A54000BC96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B08247781E692A54000BC96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB1627B9F165C46F111A163 /* Pods-FDQDaily.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDQDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDQDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B08247791E692A54000BC96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC557DB01AF422874B3867F2 /* Pods-FDQDaily.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDQDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDQDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B082477B1E692A54000BC96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDQDailyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDQDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDQDaily.app/FDQDaily";
+			};
+			name = Debug;
+		};
+		B082477C1E692A54000BC96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDQDailyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDQDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDQDaily.app/FDQDaily";
+			};
+			name = Release;
+		};
+		B082477E1E692A54000BC96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FDQDailyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDQDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FDQDaily;
+			};
+			name = Debug;
+		};
+		B082477F1E692A54000BC96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FDQDailyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDQDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FDQDaily;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B082474A1E692A54000BC96F /* Build configuration list for PBXProject "FDQDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08247751E692A54000BC96F /* Debug */,
+				B08247761E692A54000BC96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B08247771E692A54000BC96F /* Build configuration list for PBXNativeTarget "FDQDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08247781E692A54000BC96F /* Debug */,
+				B08247791E692A54000BC96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B082477A1E692A54000BC96F /* Build configuration list for PBXNativeTarget "FDQDailyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B082477B1E692A54000BC96F /* Debug */,
+				B082477C1E692A54000BC96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B082477D1E692A54000BC96F /* Build configuration list for PBXNativeTarget "FDQDailyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B082477E1E692A54000BC96F /* Debug */,
+				B082477F1E692A54000BC96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B08247471E692A54000BC96F /* Project object */;
+}
