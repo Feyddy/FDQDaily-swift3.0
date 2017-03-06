@@ -22,6 +22,15 @@
 		B08247931E696412000BC96F /* FDMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247921E696412000BC96F /* FDMenuView.swift */; };
 		B08247951E6967DF000BC96F /* FDNewClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247941E6967DF000BC96F /* FDNewClassificationView.swift */; };
 		B08247971E696FCD000BC96F /* FDHomeNewsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08247961E696FCD000BC96F /* FDHomeNewsDataManager.swift */; };
+		B08C70491E6CFFB100893FEF /* FDResponsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08C70481E6CFFB100893FEF /* FDResponsModel.swift */; };
+		B08C704B1E6D00BF00893FEF /* FDFeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08C704A1E6D00BF00893FEF /* FDFeedsModel.swift */; };
+		B08C704D1E6D00D300893FEF /* FDPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08C704C1E6D00D300893FEF /* FDPostModel.swift */; };
+		B08C704F1E6D018700893FEF /* FDCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08C704E1E6D018700893FEF /* FDCategoryModel.swift */; };
+		B08C70541E6D029300893FEF /* YALSunnyRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B08C70521E6D029300893FEF /* YALSunnyRefreshControl.m */; };
+		B08C70551E6D029300893FEF /* YALSunnyRefreshControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = B08C70531E6D029300893FEF /* YALSunnyRefreshControl.xib */; };
+		B08C70571E6D039100893FEF /* HomeNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08C70561E6D039100893FEF /* HomeNewsCell.swift */; };
+		B08C70591E6D054100893FEF /* MBProgressHUD+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08C70581E6D054100893FEF /* MBProgressHUD+Extension.swift */; };
+		B08C705B1E6D065100893FEF /* FDBannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08C705A1E6D065100893FEF /* FDBannerModel.swift */; };
 		B25E77AA06AAEE6E88FF14C4 /* Pods_FDQDaily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747F1E712C49E2E4A9852F63 /* Pods_FDQDaily.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +75,17 @@
 		B08247921E696412000BC96F /* FDMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDMenuView.swift; sourceTree = "<group>"; };
 		B08247941E6967DF000BC96F /* FDNewClassificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDNewClassificationView.swift; sourceTree = "<group>"; };
 		B08247961E696FCD000BC96F /* FDHomeNewsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDHomeNewsDataManager.swift; sourceTree = "<group>"; };
+		B08C70481E6CFFB100893FEF /* FDResponsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDResponsModel.swift; sourceTree = "<group>"; };
+		B08C704A1E6D00BF00893FEF /* FDFeedsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDFeedsModel.swift; sourceTree = "<group>"; };
+		B08C704C1E6D00D300893FEF /* FDPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDPostModel.swift; sourceTree = "<group>"; };
+		B08C704E1E6D018700893FEF /* FDCategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDCategoryModel.swift; sourceTree = "<group>"; };
+		B08C70501E6D029300893FEF /* FDQDaily-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FDQDaily-Bridging-Header.h"; sourceTree = "<group>"; };
+		B08C70511E6D029300893FEF /* YALSunnyRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALSunnyRefreshControl.h; sourceTree = "<group>"; };
+		B08C70521E6D029300893FEF /* YALSunnyRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALSunnyRefreshControl.m; sourceTree = "<group>"; };
+		B08C70531E6D029300893FEF /* YALSunnyRefreshControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YALSunnyRefreshControl.xib; sourceTree = "<group>"; };
+		B08C70561E6D039100893FEF /* HomeNewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNewsCell.swift; sourceTree = "<group>"; };
+		B08C70581E6D054100893FEF /* MBProgressHUD+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+Extension.swift"; sourceTree = "<group>"; };
+		B08C705A1E6D065100893FEF /* FDBannerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDBannerModel.swift; sourceTree = "<group>"; };
 		FC557DB01AF422874B3867F2 /* Pods-FDQDaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDQDaily.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDQDaily/Pods-FDQDaily.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,6 +204,7 @@
 		B08247821E6937B7000BC96F /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				B08C70581E6D054100893FEF /* MBProgressHUD+Extension.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -195,6 +216,7 @@
 				B08247901E695AFD000BC96F /* FDSuspensionView.swift */,
 				B08247921E696412000BC96F /* FDMenuView.swift */,
 				B08247941E6967DF000BC96F /* FDNewClassificationView.swift */,
+				B08C70561E6D039100893FEF /* HomeNewsCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +232,11 @@
 		B08247851E6937B7000BC96F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B08C70481E6CFFB100893FEF /* FDResponsModel.swift */,
+				B08C704A1E6D00BF00893FEF /* FDFeedsModel.swift */,
+				B08C704C1E6D00D300893FEF /* FDPostModel.swift */,
+				B08C704E1E6D018700893FEF /* FDCategoryModel.swift */,
+				B08C705A1E6D065100893FEF /* FDBannerModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -224,6 +251,10 @@
 		B08247871E6937B7000BC96F /* Refresh */ = {
 			isa = PBXGroup;
 			children = (
+				B08C70511E6D029300893FEF /* YALSunnyRefreshControl.h */,
+				B08C70521E6D029300893FEF /* YALSunnyRefreshControl.m */,
+				B08C70531E6D029300893FEF /* YALSunnyRefreshControl.xib */,
+				B08C70501E6D029300893FEF /* FDQDaily-Bridging-Header.h */,
 			);
 			path = Refresh;
 			sourceTree = "<group>";
@@ -309,6 +340,7 @@
 				TargetAttributes = {
 					B082474E1E692A54000BC96F = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					B08247621E692A54000BC96F = {
@@ -350,6 +382,7 @@
 			files = (
 				B082475D1E692A54000BC96F /* LaunchScreen.storyboard in Resources */,
 				B082475A1E692A54000BC96F /* Assets.xcassets in Resources */,
+				B08C70551E6D029300893FEF /* YALSunnyRefreshControl.xib in Resources */,
 				B08247581E692A54000BC96F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,9 +456,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08C704D1E6D00D300893FEF /* FDPostModel.swift in Sources */,
+				B08C70491E6CFFB100893FEF /* FDResponsModel.swift in Sources */,
 				B08247551E692A54000BC96F /* ViewController.swift in Sources */,
+				B08C70571E6D039100893FEF /* HomeNewsCell.swift in Sources */,
 				B08247531E692A54000BC96F /* AppDelegate.swift in Sources */,
+				B08C70591E6D054100893FEF /* MBProgressHUD+Extension.swift in Sources */,
 				B08247911E695AFD000BC96F /* FDSuspensionView.swift in Sources */,
+				B08C70541E6D029300893FEF /* YALSunnyRefreshControl.m in Sources */,
+				B08C704F1E6D018700893FEF /* FDCategoryModel.swift in Sources */,
+				B08C705B1E6D065100893FEF /* FDBannerModel.swift in Sources */,
 				B08247951E6967DF000BC96F /* FDNewClassificationView.swift in Sources */,
 				B08247891E6938A7000BC96F /* FDPageViewController.swift in Sources */,
 				B082478D1E693C62000BC96F /* FDHomeLABSViewController.swift in Sources */,
@@ -433,6 +473,7 @@
 				B08247971E696FCD000BC96F /* FDHomeNewsDataManager.swift in Sources */,
 				B082478B1E693C3B000BC96F /* FDHomeViewController.swift in Sources */,
 				B082478F1E693FEC000BC96F /* FDTopCustomView.swift in Sources */,
+				B08C704B1E6D00BF00893FEF /* FDFeedsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,10 +624,13 @@
 			baseConfigurationReference = 2BB1627B9F165C46F111A163 /* Pods-FDQDaily.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FDQDaily/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDQDaily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FDQDaily/Refresh/FDQDaily-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -596,10 +640,12 @@
 			baseConfigurationReference = FC557DB01AF422874B3867F2 /* Pods-FDQDaily.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FDQDaily/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDQDaily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FDQDaily/Refresh/FDQDaily-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
